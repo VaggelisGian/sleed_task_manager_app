@@ -1,16 +1,43 @@
-# sleed_task_manager_app
+### Project Scope
 
-A new Flutter project.
+Build a functional Flutter application with the following requirements:
 
-## Getting Started
+### Assessment Task: "Task Manager App"
 
-This project is a starting point for a Flutter application.
+#### Scenario:
+Build a Task Manager App with the following features:
 
-A few resources to get you started if this is your first Flutter project:
+1. **User Authentication:**
+   - Use a mock API or Firebase for user sign-up and login functionality.
+   - Allow social login (Google).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Task Management:**
+   - CRUD operations (Create, Read, Update, Delete) for tasks.
+   - Categorization of tasks into Work, Personal, and Others.
+   - Implement due date and priority for tasks.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **UI/UX:**
+   - Build a responsive UI supporting both light and dark themes.
+   - Show a home screen with a task list organized by categories and priorities.
+   - Use custom widgets for task cards and lists.
+
+4. **Search and Filtering:**
+   - Implement search functionality for tasks.
+   - Allow filtering by category and priority.
+
+5. **API Integration:**
+   - Use a mock API (like JSONPlaceholder or a custom one via Node.js/Express or Firebase).
+   - Include error handling for API calls.
+
+6. **State Management:**
+   - Use Provider, Riverpod, or Bloc for state management.
+
+7. **Local Storage:**
+   - Implement local data storage using Hive or SharedPreferences to cache task data for offline use.
+
+8. **Testing:**
+   - Include at least two unit tests and one widget test for critical components.
+
+9. **Bonus Points:**
+   - Add animations (e.g., using Hero, AnimatedContainer).
+   - Include a "Reminders" feature with local notifications.
