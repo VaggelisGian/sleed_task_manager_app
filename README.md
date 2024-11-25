@@ -41,3 +41,6 @@ Build a Task Manager App with the following features:
 9. **Bonus Points:**
    - Add animations (e.g., using Hero, AnimatedContainer).
    - Include a "Reminders" feature with local notifications.
+
+Project Details
+This project is built using Flutter 3.22.1 and Dart 3.4.1. It supports Android devices with a minimum SDK version of 23 and can run on devices up to API level 34. The project leverages Firebase for backend services, including user authentication and Firestore for data storage. Local data storage is handled using the sqflite package for SQLite database operations. The app also includes state management using the Provider package and supports both light and dark themes
