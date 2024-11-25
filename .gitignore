@@ -53,3 +53,5 @@ local.properties
 **/*.user
 **/*.userosscache
 **/*.p12
+**/firebase_options.dart
+**/firebase.json
